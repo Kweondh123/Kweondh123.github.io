@@ -16,7 +16,7 @@ function getWordsBeginWith(words, begin_char) {
     var small_char = begin_char.toLowerCase();
     var bic_char = begin_char.toUpperCase();
     for (var i = 0; i < words.length; i++) {
-		if (words[i].startsWith(small_char) || words[i].startsWith(Bic_char))
+		if (words[i].startsWith(small_char) || words[i].startsWith(bic_char))
 		    return_words.push(words[i]);
 	}
     // TODO: begin_char 로 시작하는 단어를 words 배열에서 찾아서 return_words에 넣어 리턴한다.
